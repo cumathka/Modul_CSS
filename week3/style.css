@@ -6,4 +6,7 @@ h1{
 
 div{
     color: blueviolet;
+    height: inherit;
+    image-orientation: ;
+
 }
