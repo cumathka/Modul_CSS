@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+#ortala {
+  margin-left: calc(50% + -400px);
+}
+
+#bkutu {
+  height: 800px;
+  width: 800px;
+  background-color: red;
+  position: absolute;
+}
+#kutu1 {
+  background-color: white;
+  height: 500px;
+  width: 150px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 325px;
+}
+
+#kutu2 {
+  background-color: white;
+  height: 150px;
+  width: 500px;
+  margin-top: 325px;
+  margin-left: 150px;
+}
