@@ -8,93 +8,74 @@
     <link rel="stylesheet" href="stlyle.css">
 </head>
 <body>
-    <main>
+<main>
+    <section>
         <header>
-        <h1>Benim Profil Sayfam "Cuma Kaya"</h1>
+        <h1>My Profile Page"<mark>Cuma Kaya</mark>"</h1>
     <nav>
-<a href="/Hakkimda/">Hakkimda</a> |
-<a href="/Ailem/">Ailem</a> |
-<a href="/Egitim/">Egitim</a> |
-<a href="/Projelerim/">Projelerim</a>
+        <!-- navigasyon sayfa icinde baglantisi yapildi -->
+<a href="#nav1">About me</a>
+ |<a href="#nav2">My Education</a>
+ |<a href="#nav3">My Projects</a>
+ |<a href="#nav4">My Family</a>
 </nav>
-<hr/>
+<hr/><div class="tem">
+    <div class="sosyal-medya">
+        <img src="../img copy/Whatsapp-icon.png">
+        </div>
+    <div class="sosyal-medya">
+        <img src="../img copy/email.png">
+    </div>
+    <div class="sosyal-medya">
+        <img src="../img copy/facebook.png">
+    </div>
+    <div class="sosyal-medya">
+        <img src="../img copy/instagram.png">
+    </div>
+    <div class="sosyal-medya">
+        <img src="../img copy/linkedin.png">
+    </div>
+    <div class="sosyal-medya">
+        <img src="../img copy/twitter.png">
+    </div>
+</div>
         </header>
-        <aside class="sag_bolum">
-            <section>
-            <div class="sosyal-medya">
-                <img src="../img copy/icon/Whatsapp-icon.png">
-                </div>
-            <div class="sosyal-medya">
-                <img src="../img copy/icon/email.png">
-            </div>
-            <div class="sosyal-medya">
-                <img src="../img copy/icon/facebook.png">
-            </div>
-            <div class="sosyal-medya">
-                <img src="../img copy/icon/instagram.png">
-            </div>
-            <div class="sosyal-medya">
-                <img src="../img copy/icon/linkedin.png">
-            </div>
-            <div class="sosyal-medya">
-                <img src="../img copy/icon/twitter.png">
-            </div>
-            <figure>
-                <img class="picture" src="../img copy/picture.jpg" alt="profil picture">
-        </figure>
-        </aside>
-         
-            </header><br><br>
+        <figure> 
+            <img class="picture" src="../img copy/4.jpeg" alt="profil picture">
+    </figure>         
+            </header>
+        </section>
+            <hr><br><br>
             <!-- All the informaition about the person. -->
             <section class="tablo">
-                    <fieldset>
-                    <legend>Bilgiler</legend>
-                    <label>Isim: </label><div>Cuma</div> <br>
-                    <label>Soy isim: </label><div>Kaya</div> <br>
-                    <label>Dogum tarihi: </label><div>20.01.1984</div> <br>
-                    </fieldset>
-<br><br><br>
-                <fieldset class="tablo">
-                    <legend>Profession</legend>
-                    <br><br>
-                    <table>
-                        <tr>
-                            <th>Period</th>
-                            <th>Company</th>
-                            <th>Role</th>
-                            <th>Salary</th>
+            <fieldset id="nav1">
+            <legend>About Me</legend>
+            <br>
+                <table>
+                    <tr>
+                      <th>Name</th>
+                      <td>Cuma</td>
+                    </tr>
+                    <tr>
+                        <th>Surname</th>
+                        <td>Kaya</td>
+                      </tr>
+                      <tr>
+                        <th>Date Of Birth</th>
+                        <td>20.01.1984</td>
+                      </tr>
+                      <tr>
+                          <th>Place Of Birth</th>
+                          <td>Hatay</td>
                         </tr>
-                        <tr>
-                            <td>2019-2020</td>
-                            <td>Google Inc</td>
-                            <td>Software Engineering Manager</td>
-                            <td>300K</td>
-                        </tr>
-                        <tr>
-                            <td>2016-2019</td>
-                            <td>Microsoft</td>
-                            <td>Team Leader</td>
-                            <td>200K</td>
-                        </tr>
-                        <tr>
-                            <td>2013-2016</td>
-                            <td>Software AG</td>
-                            <td>Senior Software Engineer</td>
-                            <td>135K</td>
-                        </tr>
-                        <tr>
-                            <td>2009-2013</td>
-                            <td>FiFa</td>
-                            <td>Software Engineer</td>
-                            <td>125K</td>
-                        </tr>
-                        <caption>my education history</caption>
-                    </table>                    
-                </fieldset>
-
-                <fieldset class="tablo">
-                    <legend>Education</legend>
-                    <br><br>
+                        <caption>"My Credential Informations"</caption>
+                  </table>
+        </fieldset>
+        <br><br>
+        <img src="../img copy/3.jpeg" alt="" class="imge">
+        <fieldset id="nav2">
+            <legend>My Education</legend>
+        <br>
                     <table>
                         <tr>
                             <th>Graduate Year</th>
@@ -103,60 +84,91 @@
                             <th>Grade</th>
                         </tr>
                         <tr>
+                            <td>2002</td>
+                            <td>Fatih High School</td>
+                            <td>Science Class</td>
+                            <td>4.56/5.00</td>
+                        </tr>
+                        <tr>
+                            <td>2006</td>
+                            <td>Ataturk University</td>
+                            <td>Mathematics Teaching Department</td>
+                            <td>3.55</td>
+                        </tr>
+                        <tr>
                             <td>2020</td>
-                            <td>Michigan University</td>
-                            <td>Phd. Software Engineering</td>
-                            <td>3.6</td>
+                            <td>Zürich University</td>
+                            <td>Computer Engineering</td>
+                            <td>4.00</td>
                         </tr>
-                        <tr>
-                            <td>2014</td>
-                            <td>London University</td>
-                            <td>Msc. Software Engineering</td>
-                            <td>3.8</td>
-                        </tr>
-                        <tr>
-                            <td>2007</td>
-                            <td>ETH Zürich</td>
-                            <td>Bsc. Computer Engineering</td>
-                            <td>3.2</td>
-                        </tr>
-                        <caption>my education history</caption>
-                    </table>                    
-                </fieldset>
-
-                <fieldset class="tablo">
-                    <legend>Children</legend>
-                    <br><br>
-                    <table>
-                        <tr>
-                            <th>First Name</th>
-                            <th>Birthdate</th>
-                            <th>Class</th>
-                        </tr>
-                        <tr>
-                            <td>Sally</td>
-                            <td>12.09.2007</td>
-                            <td>7</td>
-                        </tr>
-                        <tr>
-                            <td>Kelly</td>
-                            <td>01.02.2009</td>
-                            <td>5</td>
-                        </tr>
-                        <tr>
-                            <td>Helly</td>
-                            <td>04.06.20011</td>
-                            <td>3</td>
-                        </tr>
-                        <caption>my lovely kids, sorted by birthdate</caption>
-                    </table>
-                </fieldset>
-            </section>
-        </section>
-        </section>
-        <footer>
-
-        </footer>
+                        <caption>"My Education History"</caption>
+                  </table>
+        </fieldset>
+        <br><br>
+        <img src="../img copy/1.png" alt="" class="imge">
+        <fieldset id="nav3">
+            <legend>My Projects and Jops</legend>
+            <br>
+                <table>
+                    <tr>
+                        <th>Period</th>
+                        <th>Company</th>
+                        <th>Role</th>                       
+                    </tr>
+                    <tr>
+                        <td>2007-2016</td>
+                        <td>Meb</td>
+                        <td>mathematic and science Teacher</td>                        
+                    </tr>
+                    <tr>
+                        <td>2016-2020</td>
+                        <td>Kitchen and Steeldoor</td>
+                        <td>CNC operator</td>                       
+                    </tr>
+                    <tr>
+                        <td>2020-2021</td>
+                        <td>HI/Coders</td>
+                        <td>Software Teacher</td>                        
+                    </tr>
+                    <tr>
+                        <td>Projects/Github</td>
+                        <td colspan="2"> <a href="https://github.com/cumathka/Modul_CSS">https://github.com/cumathka/Modul_CSS</a></td>                                             
+                    </tr>
+                    <caption>"My Projects-Jobs History"</caption>
+                  </table>
+        </fieldset>
+        <br><br>
+        <img src="../img copy/2.jpeg" alt="my children" class="imge">
+        <fieldset id="nav4">
+            <legend>My Family</legend>
+            <br>
+                <table>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Birthdate</th>
+                        <th>Class</th>
+                    </tr>
+                    <tr>
+                        <td>Taha</td>
+                        <td>14.08.2020</td>
+                        <td>0 (Baby)</td>
+                    </tr>
+                    <tr>
+                        <td>Tahsin</td>
+                        <td>12.12.2010</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Derya</td>
+                        <td>06.26.2012</td>
+                        <td>3</td>
+                    </tr>
+                    <caption>"My Sweet Family"</caption>
+                  </table>
+        </fieldset>
+    <footer>
+        <br><br><br><br><hr><span>Schaffhauserstrasse 470, 8052 Zürich</span> <div>	&copy; Copyright </div>
+    </footer>    
     </main>
 </body>
 </html>
