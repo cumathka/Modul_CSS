@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+body {
+  background-color: antiquewhite;
+}
+
+
+h2,h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.ekutu{
+background-color: crimson;
+height: 120px;
+}
+
+.ekutu div{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: darkturquoise;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+}
+
+.flex{
+display: flex;
+  background-color: crimson;
+
+}
+.flex div{
+height: 100px;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 100px;
+background-color: cyan;
+
+}
+.temizle{
+    clear: both;
+}

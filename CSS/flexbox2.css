@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  border-color: antiquewhite;
+}
+
+.flex-kutu {
+  background-color: darksalmon;
+  display: flex;
+  height: 500px;
+  }
+
+.flex-kutu div {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  margin: 10px;
+  color: white;
+  font-size: 24px;
+  line-height: 100px;
+  text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: skyblue;
+    height: 150px;
+    line-height: 150px;
+}

@@ -1,0 +1,45 @@
+#sp1 {
+  position:absolute;
+  background-color: rgb(235, 78, 78);
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  line-height: 150px;
+  top: 0px;
+  left: 0px;
+}
+
+#sp2 {
+  position:absolute;
+  background-color: rgb(128, 173, 240);
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 200px;
+  top: 0px;
+  right: 0px;
+  border-radius: 150px;
+}
+
+#sp3 {
+  position:absolute;
+  background-color: rgb(240, 229, 128);
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 200px;
+  bottom:0px;
+  left: 0px;
+  border-radius:150px;
+}
+
+#sp4 {
+  position:absolute;
+  background-color: rgb(128, 240, 133);
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  line-height: 150px; 
+  bottom: 0px;
+  right: 0px;
+

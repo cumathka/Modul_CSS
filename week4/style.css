@@ -1,0 +1,80 @@
+* {
+  background-color: rgb(239, 248, 248);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 100px;
+}
+
+#big_box {
+  /* background-image: url(../arka\ plan.jpg); */
+  background-image: url(../son.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.model {
+  height: 175px;
+  width: 250px;
+}
+
+div:nth-child(2) {
+  height: 400px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div:nth-child(1) {
+  margin-top: 50px;
+  background-color: cornsilk;
+  
+}
+
+div:nth-child(3) {
+  margin-bottom: 50px;
+  height: 40px;
+  background-color: rgb(230, 219, 205);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imge {
+  height: 24px;
+  width: 24px;
+  border: 1px solid lemonchiffon;
+}
+
+.himge{
+  height: 70px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  position:absolute;
+  margin:-35px
+
+}
+
+#head{
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgb(238, 80, 80);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  margin-top: -50px;
+}
