@@ -1,0 +1,153 @@
+/* ana menu */
+main {
+  background-image: url(./img/arkpl.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  width: 120vh;
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(12, 198, 231);
+}
+/* arka plan kutular */
+#bigbox {
+  width: 50vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* front box */
+.head {
+  border: .5px solid rgba(12, 224, 252, 0.39);
+  display: flex;
+  }
+
+  .head>div {
+    display: flex;
+    position: relative;
+    margin-bottom: -12vh;
+    border-radius: 1.5vh;
+    -webkit-border-radius: 1.5vh;
+    -moz-border-radius: 1.5vh;
+    -ms-border-radius: 1.5vh;
+    -o-border-radius: 1.5vh;    
+  }
+.profil{
+   height:16vh;
+   width: 16vh;
+   border-radius:8vh ;
+   -webkit-border-radius:8vh ;
+   -moz-border-radius:8vh ;
+   -ms-border-radius:8vh ;
+   -o-border-radius:8vh ;
+   border: 1px solid rgb(245, 245, 245);
+   justify-content: flex-start;
+   position: absolute;
+   z-index: 1;
+   align-self: center;}
+
+.iconblack {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  align-self: flex-end;
+  margin: 20px;
+  margin-bottom: 4px;
+  justify-content: space-between;
+  }
+
+  h5{
+    margin: 0px auto;
+    position: absolute;
+    align-self: center;
+    font-style: italic;
+    font-size: smaller;
+  }
+  /* first box */
+.head:nth-child(1){
+  height: 35vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    48deg,
+    rgba(2, 0, 36, 1) 2%,
+    rgba(56, 56, 215, 1) 74%,
+    rgba(0, 212, 255, 1) 99%    
+  );
+  display: flex;
+  justify-content:center;
+  align-items:flex-end;  
+   }
+.head:nth-child(1) div{
+  height: 24vh;
+  width: 40vh;
+  background-color: whitesmoke;
+  border: 2px solid rgb(238, 234, 226);
+ }
+/* second box */
+.head:nth-child(2) {
+  background-color: whitesmoke;
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  }
+.head:nth-child(2) div{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  height: 40vh;
+  width: 40vh;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 2vh;
+  -webkit-border-radius: 2vh;
+  -moz-border-radius: 2vh;
+  -ms-border-radius: 2vh;
+  -o-border-radius: 2vh;
+  border: 2px solid whitesmoke;
+  }
+.btn-circle.btn-xl {
+  width: 6vh;
+  height: 6vh;
+  padding: 5px 8px;
+  font-size: 16px;
+  line-height: 6vh
+  border-radius: 4vh;
+  -webkit-border-radius: 4vh;
+  -moz-border-radius: 4vh;
+  -ms-border-radius: 4vh;
+  -o-border-radius: 4vh;
+ }
+ h4{
+   position: absolute;
+   font-weight: bold;
+   margin-top: -4.5vh;
+ }
+ p{font-weight: bold;
+  margin-top: -4vh;
+  text-shadow: 1px 1px;
+  position: absolute;
+ }
+ /* third box */
+.head:nth-child(3){
+  height: 7vh;
+  background-color:white; 
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+     }
+
+ .head:nth-child(3) img{
+  height: 6vh;
+ }
+
+ .head:nth-child(3) p{
+   position: absolute;
+   margin-top: -8vh;
+   margin-right: 30vh;
+   font-size: small;   
+   }
+

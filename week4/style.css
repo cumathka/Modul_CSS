@@ -6,8 +6,7 @@
 
 #big_box {
   background-image: url(../img/h.webp);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-size: cover;
   height: 150vh;
   width: 100vh;
