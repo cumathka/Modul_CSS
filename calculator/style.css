@@ -1,0 +1,119 @@
+/* general settings */
+* {
+  box-sizing: content-box;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+/* colors */
+a {
+  color: black;
+}
+a:hover {
+  color: darkblue;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+  background-color: lightblue;
+}
+
+footer {
+  background-color: whitesmoke;
+}
+
+section.calculator-base {
+  background-color: purple;
+}
+
+header {
+  background-color: rgb(240, 213, 213);
+}
+
+li{
+    list-style: none;
+}
+
+/* typologie */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* layout */
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+}
+
+ul li{
+    flex-grow: 1;
+}
+
+section.calculator-base {
+  height: 70vh;
+}
+
+footer {
+  height: 20vh;
+  display: flex;
+
+}
+
+section .product-info{
+    flex-grow: 1;
+    }
+
+/* component */
+
+.calculator-base{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.calculator-keypad {
+
+}
+
+.calculator{
+    background-color: rgb(248, 44, 7);
+    height:33vh ;
+    width:33vw ;
+}
+
+

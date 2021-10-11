@@ -1,0 +1,135 @@
+/* footer */
+footer {
+  height: 60vh;
+  width: 100%;
+  background-color: #fff2cc;
+  display: flex;
+  align-items: center;
+  color: wheat;
+}
+/* contanier */
+.shape {
+  height: 40vh;
+  width: 33.333%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+}
+
+/* first shape ellipse */
+.first {
+  background-color: #62306d;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 70px;
+  width: 70px;
+}
+.one {
+  background-color: #fade8b;
+  border-bottom-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.two {
+  background-color: #fade8b;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+/* second shape quadrant */
+.second {
+  background-color: #e3516e;
+}
+
+.quadrant {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-left {
+  background-color: #51b5a9;
+  border-top-left-radius: 100%;
+}
+
+.top-right {
+  background-color: #f7f3d7;
+  border-bottom-left-radius: 100%;
+}
+
+.bottom-left {
+  background-color: #fade8b;
+  border-top-right-radius: 100%;
+}
+
+/* third shape circle bow */
+.third {
+  background-color: #191210;
+  display: flex;
+}
+
+.circle div {
+  display: flex;
+}
+
+#iki {
+  height: 40px;
+  width: 80px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 15px solid #eca03d;
+  border-bottom: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transform: rotate(180deg) translate(-15px, -20px);
+  -webkit-transform: rotate(180deg) translate(-15px, -20px);
+  -moz-transform: rotate(180deg) translate(-15px, -20px);
+  -ms-transform: rotate(180deg) translate(-15px, -20px);
+  -o-transform: rotate(180deg) translate(-15px, -20px);
+}
+
+#uc {
+  height: 40px;
+  width: 80px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 15px solid #eca03d;
+  border-bottom: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transform: translate(-15px, -20px);
+  -webkit-transform: translate(-15px, -20px);
+  -moz-transform: translate(-15px, -20px);
+  -ms-transform: translate(-15px, -20px);
+  -o-transform: translate(-15px, -20px);
+}
+
+#bes {
+  background-color: #84271c;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin: 15px auto;
+}
+
+#alti {
+  background-color: #191210;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  border: 15px solid #eca03d;
+}

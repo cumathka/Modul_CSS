@@ -1,5 +1,48 @@
-h1{
-	background-color: violet;
-	height: 30px;
-	width: 50px;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.loading {
+  /*background-color: black;
+  */border: 10px solid transparent;
+  border-top:10px solid blue ;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: kenar 1s linear infinite ;
+  :;
+  -webkit-animation: kenar 1s linear infinite ;
+}
+
+@keyframes kenar {
+	from{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+}
+to{
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+	
+}
+a{
+display: flex;
+-ms-flex-item-align: ;
 }
