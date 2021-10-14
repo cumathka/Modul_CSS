@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Questrial", sans-serif;
+  margin-left: 1%;
+  background-color: whitesmoke;
+}
+.whole {
+  clear: both;
+}
+.h1 {
+  width: 37vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35vh;
+}
+.h {
+  font-size: 60px;
+  margin-bottom: 5px;
+  color: #1877f2;
+}
+.information {
+  font-size: 30px;
+}
+
+.main {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  left: 55%;
+  top: 20%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 9px rgb(184, 184, 184), -1px -1px 5px rgb(184, 184, 184);
+}
+.txt {
+  margin: 10px;
+  margin-top: 15px;
+  padding: 15px;
+  width: 85%;
+  background-color: whitesmoke;
+  outline: none;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  font-size: 14px;
+}
+.txt:focus {
+  border: 1px solid #1877f2;
+  box-shadow: 1px 1px 1px #1877f2, -1px -1px 1px #1877f2;
+}
+.login {
+  color: #ffff;
+  margin: 10px;
+  padding: 15px;
+  width: 95%;
+  border-radius: 5px;
+  background-color: #1877f2;
+  font-size: 20px;
+  border: none;
+  font-weight: bolder;f
+}
+.a_link {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom:30px;
+  height: 50px;
+  border-bottom: 1px solid rgb(184, 184, 184);
+  margin: 15px;
+  display: flex;
+ 
+}
+.link {
+  background: none;
+  text-decoration: none;
+  color: #1877f2;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left:30%;
+}
+.enter {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 95px;
+  width: 50%;
+  color: #ffff;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #42b72a;
+  border-radius: 5px;
+}
+.enter_info {
+  text-decoration: none;
+  background: none;
+  color: #ffff;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+#partfoot {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  margin-left: -45px;
+  color: black;
+ }
+
+#footer_wrap {
+  width: 100%;
+  clear: both;
+  float: left;
+  margin-top: 30px;
+  width: 65vw;
+  background-color: white;  
+  margin-left: 200px;
+}
+
+#footer1 {
+  width: 960px;
+  padding: 0px;
+  border-bottom: 1px solid #e6e6e6;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #848484;
+  background-color: white;
+}
+
+#footer1 a {
+  color: #365899;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: white;
+}
+
+#footer1 a:hover {
+  text-decoration: underline;
+}
+
+.login{
+  cursor:pointer;
+}
+
+#footer2 {
+  width: 75vw;
+  margin: 0px auto;
+  padding: 0px;
+  font-size: 13px;
+  color: #848484;
+  background-color: white;
+}
+
+#footer2 a {
+  color: #365899;
+  display: inline-block;
+  margin: 5px;
+  margin-left: 0px;
+  min-width: 80px;
+  text-decoration: none;
+  background-color: white;
+}
+
+#footer2 a:hover {
+  text-decoration: underline;
+}
+
+hr{
+  margin-top: 45px;
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+#aside {
+  direction: ltr;
+  line-height: 1.34;
+  margin-top: 180px;
+  margin-left: 735px;
+  text-align: center;
+  border-top: none;
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 0;
+  padding-bottom: 60px;
+  width: 400px;
+  
+}
+
+#aside a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+<i class="bi bi-plus-square"></i>
+
+
