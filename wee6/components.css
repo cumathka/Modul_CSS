@@ -1,0 +1,26 @@
+/*Components*/
+
+#icons a {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  text-decoration: none;
+}
+
+a i {
+  font-size: 1.6875em;
+}
+
+.search div {
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+  width: 70%;
+  height: 100%;
+}

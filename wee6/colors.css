@@ -1,0 +1,25 @@
+/*-------------------------------Colors------------------------------------*/
+:root {
+  --bluescreen: #65a8f2;
+  --background: #63a6f1;
+  --white: #f6f8fc;
+  --dblue: #5aa4fa;
+  --ablue: #97c6fc;
+  --gradient: linear-gradient(to right, var(--bluescreen), var(--ablue));
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+}
+
+a {
+    color: #8cc1fd;
+  }
+  
+  a:hover {
+    color: red;
+  }

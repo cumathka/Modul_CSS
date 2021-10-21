@@ -1,0 +1,333 @@
+/*General settings*/
+* {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+/* header right part */
+#information {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+}
+
+#information :nth-child(1) {
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+  height: 1.5vh;
+  width: 18vw;
+}
+
+#information :nth-child(2) {
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+  height: 1vh;
+  width: 18vw;
+  margin: 0.375em;
+}
+
+#information :nth-child(3) {
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+  height: 4vh;
+  width: 5vw;
+  margin-top: 0.75em;
+}
+/* movie part */
+.movie {
+  background-color: var(--white);
+  height: 80%;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#movie {
+  height: 3.125em;
+  width: 3.125em;
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#movie div {
+  width: 0;
+  height: 0;
+  border-top: 0.8125em solid transparent;
+  border-bottom: 0.8125em solid transparent;
+  border-left: 1.25em solid var(--white);
+  margin: 0px auto;
+}
+
+
+/* orta resim */
+.picture {
+  height: 90%;
+  width: 95%;
+  display: flex;
+  background-color: var(--white);
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sun1 {
+  height: 3.125em;
+  width: 3.125em;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+  position: absolute;
+  margin-top: -10.625em;
+  margin-left: -13.125em;
+}
+
+#triangle {
+  display: flex;
+  margin-left: 6.25em;
+  margin-top: 5.625em;
+}
+
+#triangle :nth-child(1) {
+  height: 0;
+  width: 0;
+  border-left: 5em solid transparent;
+  border-right: 5em solid transparent;
+  border-bottom: 5em solid var(--ablue);
+  position: absolute;
+  margin-top: 2.5em;
+  margin-left: -5.625em;
+}
+
+#triangle :nth-child(2) {
+  height: 0;
+  width: 0;
+  border-left: 7.5em solid transparent;
+  border-right: 7.5em solid transparent;
+  border-bottom: 7.5em solid var(--ablue);
+}
+
+/* sol resim */
+.picture2 {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  background-color: var(--white);
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.9375em;
+}
+
+#sun2 {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-image: linear-gradient(to right, var(--bluescreen), var(--ablue));
+  position: absolute;
+  margin-top: -1.875em;
+  margin-left: -13.125em;
+}
+
+#triangle2 {
+  display: flex;
+  margin-left: 6.25em;
+  margin-top: 5.625em;
+}
+
+#triangle2 :nth-child(1) {
+  height: 0;
+  width: 0;
+  border-left: 3.75em solid transparent;
+  border-right: 3.75em solid transparent;
+  border-bottom: 3.75em solid var(--ablue);
+  position: absolute;
+  margin-top: 2.5em;
+  margin-left: -5.625em;
+}
+
+#triangle2 :nth-child(2) {
+  height: 0;
+  width: 0;
+  border-left: 6.25em solid transparent;
+  border-right: 6.25em solid transparent;
+  border-bottom: 6.25em solid var(--ablue);
+}
+
+#point {
+  display: flex;
+}
+
+#point div {
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--background);
+  margin-left: 0.625em;
+}
+/* orta-sol taraf */
+#left {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  background-color: var(--white);
+  width: 80%;
+  height: 90%;
+  border-radius: 0.9375em;
+  -webkit-border-radius: 0.9375em;
+  -moz-border-radius: 0.9375em;
+  -ms-border-radius: 0.9375em;
+  -o-border-radius: 0.9375em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#voice {
+  height: 0.125em;
+  width: 5em;
+  background-color: var(--bluescreen);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+#screen {
+  height: 80%;
+  width: 90%;
+  background-color: var(--bluescreen);
+}
+
+#circle {
+  height: 1.875em;
+  width: 1.875em;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--white);
+  border: 2px solid var(--bluescreen);
+}
+
+#box_two {
+  height: 100%;
+  width: 50%;
+  margin-top: 0.375em;
+}
+
+#box_two div {
+  height: 2vh;
+  width: 86.5%;
+  background-color: var(--white);
+  margin-left: 0.5em;
+  margin-bottom: 0.9375em;
+}
+
+/* sylide bar */
+
+#role {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+
+#elips_left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elp1 {
+  height: 5.5vh;
+  width: 11vh;
+  background-color: var(--white);
+  border-radius: 3.125em;
+  -webkit-border-radius: 3.125em;
+  -moz-border-radius: 3.125em;
+  -ms-border-radius: 3.125em;
+  -o-border-radius: 3.125em;
+  display: flex;
+  align-items: center;
+}
+
+.elp1 div {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+  border: 2.5px solid var(--ablue);
+}
+
+#elips_right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elp2 {
+  height: 5.5vh;
+  width: 11vh;
+  background-color: var(--white);
+  border-radius: 3.125em;
+  -webkit-border-radius: 3.125em;
+  -moz-border-radius: 3.125em;
+  -ms-border-radius: 3.125em;
+  -o-border-radius: 3.125em;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 1.25em;
+}
+
+.elp2 div {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+  border: 2.5px solid var(--white);
+  background-color: var(--ablue);
+}
