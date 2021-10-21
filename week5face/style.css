@@ -103,9 +103,8 @@
 #partfoot {
   position: absolute;
   background-color: white;
-  width: 100%;
-  margin-left: -45px;
   color: black;
+  display: flex;
  }
 
 #footer_wrap {
@@ -134,37 +133,38 @@
   margin-left: 10px;
   text-decoration: none;
   background-color: white;
+  color: black;
 }
 
 #footer1 a:hover {
   text-decoration: underline;
 }
 
+.footer2{
+  display: flex;
+  margin-top: 20px;
+  text-decoration: none;
+  list-style: none;
+  background-color: white;
+  width:800px
+}
+
+.footer2 a{
+  color: #365899;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: white; 
+  list-style: none;
+  color: black;
+  width: 5px;
+}
+
+.footer2 a:hover {
+  text-decoration: underline;
+}
+
 .login{
   cursor:pointer;
-}
-
-#footer2 {
-  width: 75vw;
-  margin: 0px auto;
-  padding: 0px;
-  font-size: 13px;
-  color: #848484;
-  background-color: white;
-}
-
-#footer2 a {
-  color: #365899;
-  display: inline-block;
-  margin: 5px;
-  margin-left: 0px;
-  min-width: 80px;
-  text-decoration: none;
-  background-color: white;
-}
-
-#footer2 a:hover {
-  text-decoration: underline;
 }
 
 hr{
@@ -176,7 +176,7 @@ hr{
 #aside {
   direction: ltr;
   line-height: 1.34;
-  margin-top: 180px;
+  margin-top: 130px;
   margin-left: 735px;
   text-align: center;
   border-top: none;
@@ -185,7 +185,7 @@ hr{
   font-size: 14px;
   font-weight: normal;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   width: 400px;
   
 }
@@ -194,7 +194,7 @@ hr{
   color: black;
   font-weight: bold;
   text-decoration: none;
-}
+  }
 
 <i class="bi bi-plus-square"></i>
 
