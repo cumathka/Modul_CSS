@@ -11,6 +11,7 @@ body {
   background-color: darksalmon;
   display: flex;
   height: 500px;
+  flex-wrap: wrap;
   }
 
 .flex-kutu div {
@@ -22,6 +23,7 @@ body {
   font-size: 24px;
   line-height: 100px;
   text-align: center;
+  ord
 }
 
 h2{
